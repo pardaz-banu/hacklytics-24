@@ -1,505 +1,499 @@
 {
-    "heart_dataset":
-    {
-  "patient_id": "P001",
-  "patient_name": "John Doe",
-  "gender": "Male",
-  "heart_disease_history": [
-    {
-      "timestamp": "2008-01-01T08:00:00Z",
-      "age": 55,
-      
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": true
+    "heart_dataset": [
+      {
+        "patient_id": "P001",
+        "patient_name": "John Doe",
+        "gender": "Male",
+        "heart_disease_history": [
+          {
+            "timestamp": "2008-01-01T08:00:00Z",
+            "age": 55,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 200,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "130/80",
+              "ECG_result": "Normal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 55,
+                "details": "Normal heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Coronary Artery Disease",
+              "severity": "Moderate"
+            },
+            "treatments": {
+              "medications": ["Aspirin", "Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise"]
+            }
+          },
+          {
+            "timestamp": "2008-08-15T10:30:00Z",
+            "age": 55,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": false,
+              "shortness_of_breath": false,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 220,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "120/80",
+              "ECG_result": "Normal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 50,
+                "details": "Normal heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Coronary Artery Disease",
+              "severity": "Mild"
+            },
+            "treatments": {
+              "medications": ["Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise", "walking"]
+            }
+          },
+          {
+            "timestamp": "2009-04-01T14:45:00Z",
+            "age": 56,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 190,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "140/80",
+              "ECG_result": "Normal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 60,
+                "details": "Mild heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Coronary Artery Disease",
+              "severity": "Mild"
+            },
+            "treatments": {
+              "medications": ["Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise"]
+            }
+          },
+          {
+            "timestamp": "2009-10-25T08:00:00Z",
+            "age": 56,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 190,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "140/80",
+              "ECG_result": "Normal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 55,
+                "details": "Slow heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Coronary Artery Disease",
+              "severity": "Mild"
+            },
+            "treatments": {
+              "medications": ["Aspirin", "Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise", "walking"]
+            }
+          },
+          {
+            "timestamp": "2010-07-01T11:30:00Z",
+            "age": 57,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": false,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": true,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 230,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "120/80",
+              "ECG_result": "Moderate",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Evidence of ST-segment depression during stress test, suggesting potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 60,
+                "details": "Normal heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Arrhythmias",
+              "severity": "Mild"
+            },
+            "treatments": {
+              "medications": ["Aspirin", "Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise"]
+            }
+          },
+          {
+            "timestamp": "2011-08-15T15:15:00Z",
+            "age": 58,
+            "risk_factors": {
+              "smoking": true,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 220,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "130/80",
+              "ECG_result": "Moderate",
+              "stress_test": {
+                "result": "Negative",
+                "details": "No significant abnormalities observed during stress test"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 64,
+                "details": "Mild heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Heart Failure",
+              "severity": "Severe"
+            },
+            "treatments": {
+              "medications": ["Aspirin", "Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise"]
+            }
+          }
+        ]
       },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 200,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "130/80",
-        "ECG_result": "Normal",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 55,
-          "details": "Normal heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Coronary Artery Disease",
-        "severity": "Moderate"
-      },
-      "treatments": {
-        "medications": ["Aspirin", "Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise"]
+      {
+        "patient_id": "P002",
+        "patient_name": "Maggie Robinson",
+        "gender": "Female",
+        "heart_disease_history": [
+          {
+            "timestamp": "2001-02-11T08:00:00Z",
+            "age": 34,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": false,
+              "hypertension": false,
+              "family_history": false
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": false
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 120,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "90/80",
+              "ECG_result": "Normal",
+              "stress_test": {
+                "result": "Negative",
+                "details": "No significant abnormalities observed during stress test"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 49,
+                "details": "Mild reduction in heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": false,
+              "type": "No Heart Disease",
+              "severity": "N/A"
+            },
+            "treatments": {
+              "medications": [],
+              "lifestyle_changes": []
+            }
+          },
+          {
+            "timestamp": "2001-08-15T10:30:00Z",
+            "age": 34,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": false,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": true,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 150,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "125/85",
+              "ECG_result": "Abnormal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 50,
+                "details": "Slight reduction in heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": false,
+              "type": "No Heart Disease",
+              "severity": "N/A"
+            },
+            "treatments": {
+              "medications": [],
+              "lifestyle_changes": []
+            }
+          },
+          {
+            "timestamp": "2002-04-13T14:45:00Z",
+            "age": 35,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": true,
+              "hypertension": false,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": true,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 150,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "120/85",
+              "ECG_result": "Abnormal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 50,
+                "details": "Slight reduction in heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": false,
+              "type": "No Heart Disease",
+              "severity": "N/A"
+            },
+            "treatments": {
+              "medications": [],
+              "lifestyle_changes": []
+            }
+          },
+          {
+            "timestamp": "2002-12-19T08:00:00Z",
+            "age": 35,
+            "risk_factors": {
+              "smoking": false,
+              "diabetes": false,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": false,
+              "shortness_of_breath": true,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 140,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "120/80",
+              "ECG_result": "Abnormal",
+              "stress_test": {
+                "result": "Positive",
+                "details": "Indicates potential coronary artery disease"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 47,
+                "details": "Mild reduction in heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": false,
+              "type": "No Heart Disease",
+              "severity": "N/A"
+            },
+            "treatments": {
+              "medications": [],
+              "lifestyle_changes": ["Regular exercise", "Dietary modifications"]
+            }
+          },
+          {
+            "timestamp": "2004-01-21T11:30:00Z",
+            "age": 36,
+            "risk_factors": {
+              "smoking": true,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": false
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": false
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 120,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "100/70",
+              "ECG_result": "Normal",
+              "stress_test": {
+                "result": "Negative",
+                "details": "No significant abnormalities observed during stress test"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 58,
+                "details": "Excellent heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Coronary Artery Disease",
+              "severity": "Severe"
+            },
+            "treatments": {
+              "medications": ["Aspirin", "Beta-blocker"],
+              "lifestyle_changes": ["Dietary modifications", "Regular exercise"]
+            }
+          },
+          {
+            "timestamp": "2006-08-15T15:15:00Z",
+            "age": 37,
+            "risk_factors": {
+              "smoking": true,
+              "diabetes": true,
+              "hypertension": true,
+              "family_history": true
+            },
+            "symptoms": {
+              "chest_pain": true,
+              "shortness_of_breath": false,
+              "fatigue": true
+            },
+            "diagnostic_tests": {
+              "cholesterol_levels": {
+                "value": 220,
+                "units": "mg/dL"
+              },
+              "blood_pressure": "130/80",
+              "ECG_result": "Moderate",
+              "stress_test": {
+                "result": "Negative",
+                "details": "No significant abnormalities observed during stress test"
+              },
+              "echocardiogram": {
+                "ejection_fraction": 64,
+                "details": "Mild heart pumping function"
+              }
+            },
+            "diagnosis": {
+              "heart_disease": true,
+              "type": "Heart Failure",
+              "severity": "Severe"
+            },
+            "treatments": {
+              "medications": ["Aspirin", "Beta-blocker", "Statins"],
+              "lifestyle_changes": ["Dietary modifications", "Exercise"]
+            }
+          }
+        ]
       }
-    },
-    {
-      "timestamp": "2008-08-15T10:30:00Z",
-      "age": 55,
-      
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": false,
-        "shortness_of_breath": false,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 220,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "120/80",
-        "ECG_result": "Normal",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 50,
-          "details": "Normal heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Coronary Artery Disease",
-        "severity": "Mild"
-      },
-      "treatments": {
-        "medications": ["Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise","walking"]
-      }
-    },
-    {
-      "timestamp": "2009-04-01T14:45:00Z",
-      "age":56,
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 190,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "140/80",
-        "ECG_result": "Normal",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 60,
-          "details": "Mild heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Coronary Artery Disease",
-        "severity": "Mild"
-      },
-      "treatments": {
-        "medications": ["Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise"]
-      }
-    },
-    {
-      "timestamp": "2009-10-25T08:00:00Z",
-      "age": 56,
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 190,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "140/80",
-        "ECG_result": "Normal",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 55,
-          "details": "Slow heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Coronary Artery Disease",
-        "severity": "Mild"
-      },
-      "treatments": {
-        "medications": ["Aspirin", "Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise","walking"]
-      } 
-    },
-    {
-      "timestamp": "2010-07-01T11:30:00Z",
-      "age":57,
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": false,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": true,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 230,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "120/80",
-        "ECG_result": "Moderate",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Evidence of ST-segment depression during stress test, suggesting potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 60,
-          "details": "Normal heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Arrhythmias",
-        "severity": "Mild"
-      },
-      "treatments": {
-        "medications": ["Aspirin", "Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise"]
-      }
-    },
-    {
-      "timestamp": "2011-08-15T15:15:00Z",
-      "age":58,
-      "risk_factors": {
-        "smoking": true,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 220,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "130/80",
-        "ECG_result": "Moderate",
-        "stress_test": {
-         "result": "Negative",
-          "details": "No significant abnormalities observed during stress test"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 64,
-          "details": "Mild heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Heart Failure",
-        "severity": "Severe"
-      },
-      "treatments": {
-        "medications": ["Aspirin", "Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise"]
-      }
-    }
-    
-  ]
-},
-{
-  "patient_id": "P002",
-  "patient_name": "Maggie Robinson",
-  "gender": "Female",
-  "heart_disease_history": [
-    {
-      "timestamp": "2001-02-11T08:00:00Z",
-      "age": 34,
-      
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": false,
-        "hypertension": false,
-        "family_history": false
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": false
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 120,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "90/80",
-        "ECG_result": "Normal",
-        "stress_test": {
-          "result": "Negative",
-          "details": "No significant abnormalities observed during stress test"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 49,
-          "details": "Mild reduction in heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": false,
-        "type": "No Heart Disease",
-        "severity": "N/A"
-      },
-      "treatments": {
-        "medications": [],
-        "lifestyle_changes": []
-    }
-    },
-    {
-      "timestamp": "2001-08-15T10:30:00Z",
-      "age": 34,
-      
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": false,
-        "family_history": true
-        },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": true,
-        "fatigue": true
-        },
-    "diagnostic_tests": {
-        "cholesterol_levels": {
-            "value": 150,
-            "units": "mg/dL"
-        },
-        "blood_pressure": "125/85",
-        "ECG_result": "Abnormal",
-        "stress_test": {
-            "result": "Positive",
-            "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-            "ejection_fraction": 50,
-            "details": "Slight reduction in heart pumping function"
-        }
-    },
-    "diagnosis": {
-        "heart_disease": false,
-        "type": "No Heart Disease",
-        "severity": "N/A"
-      },
-      "treatments": {
-        "medications": [],
-        "lifestyle_changes": []
-    }
-    },
-    {
-      "timestamp": "2002-04-13T14:45:00Z",
-      "age":35,
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": true,
-        "hypertension": false,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": true,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 150,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "120/85",
-        "ECG_result": "Abnormal",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 50,
-          "details": "Slight reduction in heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": false,
-        "type": "No Heart Disease",
-        "severity": "N/A"
-      },
-      "treatments": {
-        "medications": [],
-        "lifestyle_changes": []
-      }
-    },
-    {
-      "timestamp": "2002-12-19T08:00:00Z",
-      "age": 35,
-      "risk_factors": {
-        "smoking": false,
-        "diabetes": false,
-        "hypertension": true,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": false,
-        "shortness_of_breath": true,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 140,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "120/80",
-        "ECG_result": "Abnormal",
-        "stress_test": {
-          "result": "Positive",
-          "details": "Indicates potential coronary artery disease"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 47,
-          "details": "Mild reduction in heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": false,
-        "type": "No Heart Disease",
-        "severity": "N/A"
-      },
-      "treatments": {
-        "medications": [],
-        "lifestyle_changes": ["Regular exercise", "Dietary modifications"]
-      }
-    },
-    {
-      "timestamp": "2004-01-21T11:30:00Z",
-      "age":36,
-      "risk_factors": {
-        "smoking": true,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": false
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": false
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 120,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "100/70",
-        "ECG_result": "Normal",
-        "stress_test": {
-          "result": "Negative",
-          "details": "No significant abnormalities observed during stress test"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 58,
-          "details": "Excellent heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Coronary Artery Disease",
-        "severity": "Severe"
-      },
-      "treatments": {
-        "medications": ["Aspirin", "Beta-blocker"],
-        "lifestyle_changes": ["Dietary modifications", "Regular exercise"]
-      }
-    },
-    {
-      "timestamp": "2006-08-15T15:15:00Z",
-      "age":37,
-      "risk_factors": {
-        "smoking": true,
-        "diabetes": true,
-        "hypertension": true,
-        "family_history": true
-      },
-      "symptoms": {
-        "chest_pain": true,
-        "shortness_of_breath": false,
-        "fatigue": true
-      },
-      "diagnostic_tests": {
-        "cholesterol_levels": {
-          "value": 220,
-          "units": "mg/dL"
-        },
-        "blood_pressure": "130/80",
-        "ECG_result": "Moderate",
-        "stress_test": {
-         "result": "Negative",
-          "details": "No significant abnormalities observed during stress test"
-        },
-        "echocardiogram": {
-          "ejection_fraction": 64,
-          "details": "Mild heart pumping function"
-        }
-      },
-      "diagnosis": {
-        "heart_disease": true,
-        "type": "Heart Failure",
-        "severity": "Severe"
-      },
-      "treatments": {
-        "medications": ["Aspirin", "Beta-blocker", "Statins"],
-        "lifestyle_changes": ["Dietary modifications", "Exercise"]
-      }
-    }
-    
-  ]
-}
-
-
-}    
+    ]
+  }
+  
