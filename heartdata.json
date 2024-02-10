@@ -1,11 +1,12 @@
 {
   "patient_id": "P001",
   "patient_name": "John Doe",
+  "gender": "Male",
   "heart_disease_history": [
     {
       "timestamp": "2008-01-01T08:00:00Z",
       "age": 55,
-      "gender": "Male",
+      
       "risk_factors": {
         "smoking": false,
         "diabetes": true,
@@ -86,6 +87,7 @@
     },
     {
       "timestamp": "2009-04-01T14:45:00Z",
+      "age":56,
       "risk_factors": {
         "smoking": false,
         "diabetes": true,
@@ -165,7 +167,7 @@
     },
     {
       "timestamp": "2010-07-01T11:30:00Z",
-      "gender": "Male",
+      "age":57,
       "risk_factors": {
         "smoking": false,
         "diabetes": true,
@@ -205,7 +207,7 @@
     },
     {
       "timestamp": "2011-08-15T15:15:00Z",
-      "gender": "Male",
+      "age":58,
       "risk_factors": {
         "smoking": true,
         "diabetes": true,
