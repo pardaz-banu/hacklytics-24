@@ -4,56 +4,56 @@ Elevated: 120-129/80-89 mmHg
 High Blood Pressure Stage 1: 130-139/80-89 mmHg
 High Blood Pressure Stage 2: 140/90 mmHg or higher
 Hypotension: Less than 90/60 mmHg
-
+$$
 Cholesterol Levels:
 Desirable: Under 200 mg/dL
 Borderline High: 200-239 mg/dL
 High: 240 mg/dL and above
-
+$$
 Ejection Fraction:
 Normal: 50-70%
 Mildly Abnormal: 40-49%
 Moderately Abnormal: 30-39%
 Severely Abnormal: Below 30%
-
+$$
 ECG:
 Normal: Normal rhythm, rate 60-100 bpm, normal waveform
 Abnormal: Arrhythmias, slowed/fast heart rate, ST segment changes, T wave inversion
-
+$$
 Troponin (ng/mL):
 - Good: <0.01  
 - Moderate: 0.01-0.03
 - Poor: 0.04-0.06 
 - Dangerous: >0.06
-
+$$
 BNP (pg/mL):
 - Good: <50  
 - Moderate: 50-100
 - Poor: 100-300
 - Dangerous: >300  
-
+$$
 Creatinine (mg/dL):
 - Good: 0.6-1.0 
 - Moderate: 1.1-1.3
 - Poor: 1.4-1.9
 - Dangerous: ≥2.0
-
+$$
 CK-MB (ng/mL):
 - Good: <3 males; <2 females
 - Moderate: 3-4 males; 2-3 females  
 - Poor: 5-10 males; 3.5-6 females
 - Dangerous: >10 males; >6 females
-
+$$
 Potassium (mEq/L):
 - Good: 3.5-4.5
 - Moderate: 4.6-5.0  
 - Poor: 5.1-5.5
 - Dangerous: <3.0 or >5.5
-
+$$
 Stress Test:
 Negative: No significant ECG changes, normal cardiac workload achieved
 Positive: ECG changes like ST depression indicating potential coronary artery disease
-
+$$
 Chest Pain:
 - Characteristics: 
   - Type: sharp, stabbing (pericarditis), crushing, pressure, tightness (angina), burning (GERD)
@@ -69,7 +69,7 @@ Chest Pain:
   - Gastrointestinal: reflux/GERD, esophageal spasm
   - Musculoskeletal: muscle strain, trauma
   - Anxiety: panic attacks
-
+$$
 Shortness of Breath:
 - Characteristics: difficulty breathing, air hunger, labored breathing, inspiratory wheezing
 - Differential Diagnoses:
@@ -80,7 +80,7 @@ Shortness of Breath:
   - Neurologic: stroke, MS, muscular weakness
   - Metabolic: acidosis, uremia
   - Obesity hypoventilation syndrome
-
+$$
 Fatigue: 
 - Characteristics: lack of energy, exhaustion, feeling run down
 - Differential diagnoses: 
@@ -89,20 +89,98 @@ Fatigue:
   - Psychiatric: depression, anxiety
   - Infectious: viral illness
   - Nutritional: vitamin deficiencies
-  
+$$
 Coronary Artery Disease:
 - Caused by plaque buildup in heart arteries, reduces blood flow to heart muscle
 - Can lead to angina, heart attack, arrhythmias
 - Diagnosed via ECG, stress test, cardiac CT angiogram
-
+$$
 Heart Failure: 
 - Impaired ability of heart to pump enough blood to meet body's needs
 - Types: Reduced ejection fraction (EF<40%), preserved EF  
 - Diagnosis: Echo (EF), BNP level, ECG (LVH, arrhythmias)
 - Treatment: Diuretics, ACEi/ARBs, beta blockers, aldosterone antagonists, lifestyle changes
-
+$$
 Myocardial Infarction:
 - Cause: plaque rupture/thrombosis in coronary artery --> ischemia 
 - Diagnosis: Serial ECGs, cardiac enzymes (troponin, CK-MB)
 - Complications: arrhythmias, cardiogenic shock, heart failure, death
 - Treatment: Oxygen, nitrates, morphine, ASA, anticoagulation, PCI/thrombolysis
+$$
+Atrial Fibrillation:
+- Characteristics: 
+  - Irregularly irregular heart rhythm
+  - Rapid heart rate, often >100 bpm
+  - Palpitations, dizziness, chest pain, sweating
+- Causes: 
+  - Hypertension, heart failure, coronary artery disease
+  - Cardiomyopathy, valvular heart disease
+  - Hyperthyroidism, electrolyte imbalances
+- Diagnosis:
+  - ECG showing absent P waves, irregular R-R intervals
+  - Holter monitor to detect paroxysmal AF
+- Treatment: 
+  - Anticoagulation (warfarin, DOACs) for stroke prevention
+  - Rate control with beta blockers, calcium channel blockers
+  - Rhythm control with antiarrhythmics, cardioversion
+$$
+Myocarditis:
+- Characteristics:
+  - Chest pain, fatigue, palpitations, fever
+  - May mimic heart attack symptoms
+- Causes: Viral infections, autoimmune disorders, toxins
+- Diagnosis:
+  - ECG showing diffuse ST elevations, PR depressions
+  - Elevated troponin and inflammatory markers
+  - Cardiac MRI for inflammation and edema
+- Treatment:
+  - NSAIDs for pain and inflammation
+  - Beta blockers for arrhythmias
+  - Diuretics for heart failure symptoms
+$$
+Endocarditis:
+- Characteristics: 
+  - Fever, fatigue, night sweats, dyspnea
+  - Heart murmurs, petechiae, splinter hemorrhages
+- Causes: Bacterial infection of heart valves or lining
+- Diagnosis:
+  - Positive blood cultures 
+  - Echocardiogram showing vegetations
+- Treatment:
+  - IV antibiotics (ampicillin, vancomycin)
+  - Possible valve surgery
+$$
+Aortic Stenosis:
+- Characteristics: 
+  - Angina, syncope, dyspnea on exertion 
+  - Systolic heart murmur loudest at right upper sternal border
+- Causes: Age-related calcification and wear of aortic valve
+- Diagnosis: 
+  - Echocardiogram shows calcified, reduced opening of aortic valve
+  - Doppler shows high velocity blood flow across valve  
+- Treatment:
+  - Medications to manage symptoms
+  - Possible surgical valve replacement if severe
+$$
+Cardiomyopathy:
+- Types: Dilated (enlarged, weakened ventricles), hypertrophic (thickened ventricles)
+- Causes: Genetics, hypertension, myocarditis, toxins, metabolic disorders
+- Symptoms: Heart failure, arrhythmias, sudden cardiac arrest
+- Diagnosis:
+  - Echocardiogram shows structural/functional abnormalities 
+  - ECG, cardiac MRI
+- Treatment: 
+  - Medications for HF (diuretics, ACEi, beta blockers)
+  - ICD placement for arrhythmia prevention
+  - For end-stage disease, heart transplant 
+$$
+Peripheral Artery Disease (PAD):
+- Characteristics: Calf or leg pain with walking (claudication)
+- Causes: Atherosclerotic plaque in leg arteries
+- Diagnosis:
+  - Ankle-brachial index test
+  - Ultrasound or CTA showing blockages
+- Treatment:
+  - Exercise therapy 
+  - Medications: antiplatelets, statins, cilostazol
+  - Revascularization procedures for severe cases
