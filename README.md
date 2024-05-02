@@ -10,13 +10,13 @@
 
 ## The PharmaLlama 🩺🦙 Way
 
-![flowchart](https://github.com/pardaz-banu/hacklytics-24/assets/55288011/f75c19dc-bf6a-4e54-b1b3-1ae93bfd48b2)
+![flowchart](flowchart.png)
 
 ## Funtionality
 
 * **Heart Analysis over time**: PharmaLlama incorporates longitudinal heart analysis into its functionality, allowing clinicians to track and monitor changes in a patient's cardiac health. By analyzing historical data and trends, PharmaLlama provides valuable insights into the progression of cardiovascular conditions.
 
-![110b8720-0578-4ec5-84e6-d7ff0e8e5980](https://github.com/pardaz-banu/hacklytics-24/assets/55288011/3dbf43e1-7924-4b15-a444-34bd7250f5d4)
+![heart-chart](heart-chart.jpg)
 
 * **Automated Chart Review**: PharmaLlama automates the process of reviewing extensive past medical reports by utilizing novel generative AI techniques. It efficiently extracts relevant information from diverse health parameters, providing clinicians with a pre-summarized version of a patient's medical history.
 * **Time-saving Documentation**: By offering a summarized and pre-rendered version of a patient's medical history, PharmaLlama saves clinicians valuable time during patient encounters. This allows healthcare professionals to focus more efficiently on direct patient care.
